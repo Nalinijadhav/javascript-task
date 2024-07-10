@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Listings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/bg-header-desktop.svg" alt="Header Background" class="image">
+        </div>
+    </header>
+   
+    <div id="filters">
+        <div class="selected-filters">
+            <input type="text" id="search-bar" placeholder="Search by language or tool...">
+          
+        </div>
+        <button id="clear-search" class="btn-clear">Clear</button>
+      
+      
+        </div>
+        
+    
+    
+    
+    <main class="container1">
+        <div id="job-listings">
+            <h4 class="job-title">${job.title}</h4>
+            <p class="job-company">${job.company}</p>
+        </div>
+       
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
